@@ -63,6 +63,11 @@
             bindings = <&mo 5>;
             key-positions = <11 12>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
     };
 
     behaviors {
