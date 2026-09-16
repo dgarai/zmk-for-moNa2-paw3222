@@ -90,7 +90,7 @@
         compatible = "zmk,input-listener";
         status = "disabled";
         input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            <&zip_temp_layer 3 500>;                            //オートマウスレイヤーの選択
+            <&zip_temp_layer 4 500>;                            //オートマウスレイヤーの選択（4 = MOUSE）
     };
 
     left_encoder: encoder_left {

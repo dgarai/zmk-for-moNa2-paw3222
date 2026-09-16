@@ -7,7 +7,7 @@
     zip_threshold_temp_layer: input_processor_threshold_temp_layer {
         compatible = "zmk,input-processor-threshold-temp-layer";
         #input-processor-cells = <2>;
-        activation-threshold = <100>;  // トラックボールを100ピクセル移動後にレイヤー3に切り替え
+        activation-threshold = <100>;  // トラックボールを100ピクセル移動後にオートマウスレイヤーへ切り替え
         require-prior-idle-ms = <0>;
         excluded-positions = <>;
     };
@@ -73,10 +73,11 @@
     device = <&trackball_central>;
 
     // 通常のポインター移動 + オートマウスレイヤー（閾値付き）
-    input-processors = <&zip_threshold_temp_layer 3 500>;  //オートマウスレイヤー（100ピクセル移動後、レイヤー3に500ms切り替え）
+    input-processors = <&zip_threshold_temp_layer 4 500>;  //オートマウスレイヤー（100ピクセル移動後、レイヤー4=MOUSE に500ms切り替え）
+                                                           // ↑ 自動レイヤー切替が不要なら、この行をコメントアウトする
 
     scroller {
-        layers = <5>;
+        layers = <5>;   // レイヤー5 = SCROLL
         input-processors = <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
                            <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,   //スクロールのY軸反転
                            <&zip_scroll_scaler 1 10>;                          //スクロール量を1/10倍
