@@ -37,12 +37,12 @@ layers:
   - {t: ESC, h: LEFT SHIFT}
   - LEFT ALT
   - LEFT COMMAND
-  - {t: '&to_layer_0 BACKSPACE', h: ARROW}
+  - ARROW
   - {t: LANGUAGE 2, h: KIGOU}
   - SPACE
   - ENTER
   - {t: LANGUAGE 1, h: LEFT CONTROL}
-  - {t: DELETE, h: SCROLL}
+  - {t: DELETE, h: RIGHT SHIFT}
   ARROW:
   - ESCAPE
   - PAGE DOWN
@@ -257,7 +257,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held alternate}
+  - {t: ▽, type: trans}
   NUM:
   - '-'
   - KP 7
@@ -353,3 +353,5 @@ combos:
   k: '&mkp MB2'
 - p: [0, 1]
   k: ESCAPE
+- p: [4, 3]
+  k: TAB
