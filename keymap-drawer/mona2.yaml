@@ -7,9 +7,9 @@ layers:
   - R
   - T
   - Y
-  - U
+  - {t: U, h: SCROLL}
   - {t: I, h: SCROLL}
-  - O
+  - {t: O, h: SCROLL}
   - P
   - A
   - S
@@ -37,7 +37,7 @@ layers:
   - {t: ESC, h: LEFT SHIFT}
   - LEFT ALT
   - LEFT COMMAND
-  - {t: BACKSPACE, h: ARROW}
+  - {t: LANGUAGE 2, h: ARROW}
   - {t: LANGUAGE 2, h: KIGOU}
   - SPACE
   - ENTER
@@ -222,9 +222,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
