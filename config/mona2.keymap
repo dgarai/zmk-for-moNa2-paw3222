@@ -227,5 +227,14 @@
 
             display-name = "FUNC";
         };
+
+        GESTURE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &kp LG(W)  &kp LG(LEFT_BRACKET)  &kp LC(UP_ARROW)  &kp LG(RIGHT_BRACKET)  &trans
+&trans  &trans  &trans  &trans  &trans              &trans  &trans     &kp LC(LEFT)          &kp LC(DOWN)      &kp LC(RIGHT)          &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &trans                &trans            &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                    &trans
+            >;
+        };
     };
 };
