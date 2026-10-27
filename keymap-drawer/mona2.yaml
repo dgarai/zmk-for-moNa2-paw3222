@@ -42,7 +42,7 @@ layers:
   - SPACE
   - ENTER
   - {t: LANGUAGE 1, h: LEFT CONTROL}
-  - {t: DELETE, h: RIGHT SHIFT}
+  - {t: BACKSPACE, h: RIGHT SHIFT}
   ARROW:
   - ESCAPE
   - PAGE DOWN
