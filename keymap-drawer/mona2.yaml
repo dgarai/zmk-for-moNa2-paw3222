@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - {t: '-', h: GESTURE}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -365,7 +365,7 @@ layers:
   - Ctl+LEFT
   - Ctl+DOWN
   - Ctl+RIGHT
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
