@@ -21,13 +21,13 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: GESTURE}
+  - {t: '-', h: GEST}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
-  - TAB
+  - {t: TAB, h: GEST}
   - DELETE
   - N
   - M
@@ -37,7 +37,7 @@ layers:
   - {t: ESC, h: LEFT SHIFT}
   - LEFT ALT
   - LEFT COMMAND
-  - {t: LANGUAGE 2, h: ARROW}
+  - {t: BACKSPACE, h: ARROW}
   - {t: LANGUAGE 2, h: KIGOU}
   - SPACE
   - ENTER
@@ -45,9 +45,9 @@ layers:
   - {t: BACKSPACE, h: RIGHT SHIFT}
   ARROW:
   - ESCAPE
-  - PAGE DOWN
-  - UP ARROW
   - PAGE UP
+  - UP ARROW
+  - PAGE DOWN
   - TAB
   - {t: ▽, type: trans}
   - KP 7
@@ -344,7 +344,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F12
-  GESTURE:
+  GEST:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -352,7 +352,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+W
   - Gui+[
-  - Ctl+UP ARROW
+  - Ctl+UP
   - Gui+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -371,7 +371,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held alternate}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
