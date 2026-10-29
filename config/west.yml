@@ -16,6 +16,8 @@ manifest:
       url-base: https://github.com/zettaface
     - name: gohanda11  # <-- Threshold Temp Layer
       url-base: https://github.com/gohanda11
+    - name: kot149     # <-- Scroll Snap
+      url-base: https://github.com/kot149
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -40,5 +42,8 @@ manifest:
     - name: zmk-input-processor-threshold-temp-layer
       remote: gohanda11
       revision: main
+    - name: zmk-scroll-snap
+      remote: kot149
+      revision: v1
   self:
     path: config
